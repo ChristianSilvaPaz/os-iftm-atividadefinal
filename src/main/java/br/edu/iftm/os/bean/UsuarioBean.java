@@ -42,9 +42,7 @@ public class UsuarioBean extends CrudBean<Usuario, UsuarioLogic>{
             getEntidade().setSenha(this.senha);
         }
         super.salvar();
-    }
-    
-    
+    }    
 
     @Override
     public UsuarioLogic getLogic() {
